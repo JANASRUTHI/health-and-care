@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/back_ground.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover ;
+    background-size: cover;
+    font-family: Poppins;
+}
+.wrapper{
+    text-align: center;
+     width: 400px;
+    height: 480px; 
+    color:rgb(3, 3, 3);
+    top: 50%;
+    left: 50%;
+    padding: 60px 30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px rgb(0, 0, 0);
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 8%;
+    font-family: Courgette;
+}
+.gg{
+    text-align: right;
+   
+}
+.wrapper input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.wrapper input[type=text], .wrapper input[type=password]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    font-size: 16px;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+}
+.wrapper input[type=submit]{
+    border: none;
+    border-bottom: none;
+    height: 40px;
+    background: #f6648b;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.fille{
+    border: none;
+    border-bottom: none;
+    height: 40px;
+    width: 339px;
+    background: #f6648b;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.wrapper input[type=submit]:hover{
+    cursor: pointer;
+}
+.wrapper a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.8;
+}
+.wrapper a:hover{
+    color: #fff;
+    opacity: 1;
+}
+.bottom-text{
+    color: rgb(245, 248, 248);
+    padding-top: 15px;
+    text-align: left;
+}
+.bottom-text input{
+    width: 10%;
+    float: left;
+}
+.bottom-text a{
+    float: right;
+}
+.socials{
+    margin-top: 12%;
+    text-align: center;
+}
+.socials a{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px  solid #fff;
+    border-radius: 50%;
+    margin: 0 15px;
+}
+.socials a:nth-child(1){
+    background: #3b5998;
+   
+}
+.socials a:nth-child(2){
+    background: #55acee;
+}
+.socials a:nth-child(3){
+    background: #179906;
+}
+.socials a:nth-child(4){
+    background: #d10073;
+}
+.socials  a i{
+    padding: 8px 0;
+}
+#error{
+    transition: 5s;
+}

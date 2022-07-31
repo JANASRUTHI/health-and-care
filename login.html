@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/style1.css">
+    <link href="../static/images/61ae-mRACmL._SL1500_.jpg" rel="icon">
+
+</head>
+<body>
+    <div class="wrapper">
+        <h1>SIGN IN</h1>
+        <form action="#" id="frm1" method="POST">
+            <i class="far fa-envelope"></i>
+            <input type="text" style="color: black;" placeholder="Username or Email" id="username" required><br><br>
+            <i class="fas fa-key"></i>
+            <input type="password" placeholder="Password" id="password" required><br><br>
+            <input type="submit" value="Sign In" onclick="validated()">
+            <button class="fille"type="submit" value="reset" onclick="myfunction()">Reset</button>
+        </form>
+    <div class="bottom-text">
+              <input type="checkbox" name="Remember Me" id="seleced"  onclick="validate()">Remember Me
+              <p id="text" style="display: none; color:green;"></p>
+                         
+              <a href="forget.html">Forget Password ?</a>
+    </div>
+    <div class="socials">
+            <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+            <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com"><i class="fab fa-github-square"></i></a>
+            <a href="https://instagram.com"><i class="fab fa-instagram-square"></i></a>
+    </div>
+    </div>
+
+    <script src="../static/js/login.js"></script>
+    <script>
+        function validate(){
+            var checkbox = document.getElementById("seleced");
+            var text = document.getElementById("text");
+            if (checkbox.checked == true){
+                alert("user name & Password Saved!")
+            }else{
+                text.style.display = "none";
+            }
+        }
+    </script>
+    <script>
+        function myfunction(){
+            document.getElementById("frm1").reset();
+        }
+    </script>
+
+</body>    
+</html>
+
+
+
+
+
+
+
+
+
+

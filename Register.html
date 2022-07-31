@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Register Page</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link rel="stylesheet" href="../static/css/style2.css">
+        <link href="../static/images/61ae-mRACmL._SL1500_.jpg" rel="icon">
+    </head>
+    <body>
+        
+        <h1>Registration Form</h1>
+        <div class="main">
+            <form name="formof" action="#" method="POST">
+            <div class="register">                
+                   <div class="name">
+                         <i class="fas fa-user-check"></i>
+                        <input type="text" id="name" class="input" placeholder="enter the first name">
+                        <i class="fas fa-user-alt"></i>  
+                        <input type="text" class="input" placeholder="enter the middle name">
+                        <i class="fas fa-user-tag"></i>  
+                        <input type="text" class="input" placeholder="enter the last name">
+                        <i class="fab fa-pagelines"></i>  
+                        <input type="text" class="input" placeholder="enter the Age"> 
+                        <br>                          
+                   </div>
+                   <div class="gender"> 
+                        
+                        <i class="fas fa-at"></i> 
+                        <input type="email" id="email" class="input" placeholder="enter your Email">
+                        <div class="gg">
+                            <label>Gender :</label>
+                            <input type="radio" style="align-items: left;" name="selecting" id="male" value=Male><label>Male</label>
+                            <input type="radio" name="selecting" id="input" value="Female"><label>Female</label>
+                        </div>
+                        <br>
+                        <i class="fas fa-unlock"></i>
+                        <input type="password"  id="password" class="input" placeholder="enter the password">
+                        <i class="fas fa-phone"></i> 
+                        <select name="optionselect" class="input" id="phoneselect">
+                            <option value="" selected disabled="disabled">choose...</option>
+                            <option value="+91">+91</option>
+                            <option value="+33">+33</option>
+                            <option value="+234">+234</option>
+                        </select>
+                        <input type="text"  class="input" placeholder="enter your mobile number">    
+                    </div>         
+            </div>
+            <br><center><input type="submit" onclick="validate()" value="Submit"></center>
+            <h3 id="error" style="color:red;"></h3>
+            <b><a href="login.html"><input type="button" value="login"></a></b>
+            </form> 
+        </div>  
+        <script src="../static/js/reg.js"></script>
+        
+    </body>
+</html>
+
+
+
