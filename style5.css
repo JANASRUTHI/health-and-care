@@ -1,6 +1,6 @@
 body{
     /*background-image:linear-gradient(to left,rgb(54, 54, 131),rgb(125, 135, 177));*/
-    background-image: url(../images/br.jpg);
+    background-image: url(br.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     -webkit-background-size: cover ;
