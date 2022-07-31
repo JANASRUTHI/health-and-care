@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(../images/back_ground.jpg);
+    background-image: url(back_ground.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     -webkit-background-size: cover ;
